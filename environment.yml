@@ -7,5 +7,4 @@ dependencies:
   - pytorch=1.6.0
   - torchvision
   - cudatoolkit=10.2
-  - pip:
-    - mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.6.0/index.html
+  - cython

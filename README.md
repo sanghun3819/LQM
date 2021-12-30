@@ -76,8 +76,8 @@ For your convenience, we provide the following trained models. All models are tr
 
 Model | Multi-scale training | AP (minival) | Link
 --- |:---:|:---:|:---:
-LQM_R_50_FPN_1x              | No  | 40.0 | [Google](https://drive.google.com/file/d/1D-Bp1I3AhymPDiR2GWVcQusF_o9q9lVL/view?usp=sharing)
-LQM_R_101_FPN_2x             | Yes | 44.8 | [Google](https://drive.google.com/file/d/1T4e9qkT4w5Rbue_nbba9Thrje4E6Q5um/view?usp=sharing)
-LQM_R_101_dcnv2_FPN_2x       | Yes | 47.4 | [Google](https://drive.google.com/file/d/1o79wRRhEe3HwiWwxHIG69VGjk5RIpGQ2/view?usp=sharing)
-LQM_X_101_FPN_2x             | Yes | 47.2 | [Google](https://drive.google.com/file/d/1hfD0cGvJd2ZO2FiVmFzoQEGBjjVuRB52/view?usp=sharing)
-LQM_X_101_dcnv2_FPN_2x       | Yes | 48.9 | [Google](https://drive.google.com/file/d/1TAsQntoprgIYXiFCA1BJJ2IOpY3MdmpX/view?usp=sharing)
+LQM_R50_FPN_1x              | No  | 40.0 | [Google](https://drive.google.com/file/d/1D-Bp1I3AhymPDiR2GWVcQusF_o9q9lVL/view?usp=sharing)
+LQM_R101_FPN_2x             | Yes | 44.8 | [Google](https://drive.google.com/file/d/1T4e9qkT4w5Rbue_nbba9Thrje4E6Q5um/view?usp=sharing)
+LQM_R101_dcnv2_FPN_2x       | Yes | 47.4 | [Google](https://drive.google.com/file/d/1o79wRRhEe3HwiWwxHIG69VGjk5RIpGQ2/view?usp=sharing)
+LQM_X101_FPN_2x             | Yes | 47.2 | [Google](https://drive.google.com/file/d/1hfD0cGvJd2ZO2FiVmFzoQEGBjjVuRB52/view?usp=sharing)
+LQM_X101_dcnv2_FPN_2x       | Yes | 48.9 | [Google](https://drive.google.com/file/d/1TAsQntoprgIYXiFCA1BJJ2IOpY3MdmpX/view?usp=sharing)

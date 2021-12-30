@@ -19,3 +19,6 @@ rm train2017.zip
 rm val2017.zip
 rm test2017.zip
 rm annotations.zip
+
+cd ..
+cd ..

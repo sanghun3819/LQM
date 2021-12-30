@@ -37,9 +37,13 @@ Please see [GETTING_STARTED.md](https://github.com/open-mmlab/mmdetection/blob/v
 ## Preparing MS COCO dataset
 ---
   ```shell
-  download_coco.sh
+  bash download_coco.sh
   ```
-
+## Preparing Pre-trained model weights
+---
+  ```shell
+  bash download_weights.sh
+  ```
 ## Train
 ---
 ```python

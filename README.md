@@ -23,7 +23,7 @@ Please see [GETTING_STARTED.md](https://github.com/open-mmlab/mmdetection/blob/v
 
 2. Create a conda virtural environment and install dependencies.
     ```shell
-    conda create -f environment.yml
+    conda env create -f environment.yml
     ```
 3. Activate conda environment 
     ```shell

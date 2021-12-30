@@ -219,10 +219,8 @@ def _inference_detector(model, img):
 
     # forward the model
     with torch.no_grad():
-        result = model(return_loss=False, rescale=True, **data)[0]
-        uncertainty = model(return_loss=False, rescale=True, **data)[1]
-        quality = model(return_loss=False, rescale=True, **data)[2]
-    return result, uncertainty, quality
+        return model(return_loss=False, rescale=True, demo=True, **data)
+    
     # show the results
     # show_result_pyplot(model, args.img, result, score_thr=args.score_thr)
     

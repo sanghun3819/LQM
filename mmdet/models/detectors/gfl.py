@@ -25,7 +25,6 @@ class GFL(SingleStageDetector):
                 #  demo=False):
         super(GFL, self).__init__(backbone, neck, bbox_head, train_cfg,
                                   test_cfg, pretrained)
-        self.DEMO = False
 
     def show_result(self,
                     img,
@@ -112,7 +111,7 @@ class GFL(SingleStageDetector):
         if not (show or out_file):
             return img
 
-    def simple_test(self, img, img_metas, rescale=False):
+    def simple_test(self, img, img_metas, rescale=False, demo=False):
         """Test function without test time augmentation.
 
         Args:
@@ -153,7 +152,7 @@ class GFL(SingleStageDetector):
         #     uncertainty_return_list.append(uncert_cls)
 
         
-        if(self.DEMO) : return bbox_results[0], outs[2], outs[3]
+        if(demo) : return bbox_results[0], outs[2], outs[3]
         # if(self.DEMO) : return bbox_results[0], uncertainty_return_list
         else : return bbox_results
 

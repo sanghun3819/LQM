@@ -67,7 +67,7 @@ Please see [GETTING_STARTED.md](https://github.com/open-mmlab/mmdetection/blob/v
 # config, checkpoint, source image path are needed (If you need pre-trained weights, you can download them from provided google drive link)
 # score threshold is optional
 
-./demo/LQM_image_demo.py --config configs/uncertainty_guide/uncertainty_guide_r50_fpn_1x.py --checkpoint work_dirs/pretrained/LQM_r50_fpn_1x.pth --img data/coco/test2017/000000011245.jpg --score-thr 0.3
+python demo/LQM_image_demo.py --config configs/uncertainty_guide/uncertainty_guide_r50_fpn_1x.py --checkpoint work_dirs/pretrained/LQM_r50_fpn_1x.pth --img data/coco/test2017/000000011245.jpg --score-thr 0.3
 ```
 
 ## Models

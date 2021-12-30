@@ -31,7 +31,7 @@ Please see [GETTING_STARTED.md](https://github.com/open-mmlab/mmdetection/blob/v
     ```
 4. Install build requirements and then install MMDetection.
     ```shell
-    pip install -r requirements/build.txt
+    pip install --force-reinstall mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.6.0/index.html
     pip install -v -e .
     ```
 ## Preparing MS COCO dataset

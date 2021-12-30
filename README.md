@@ -70,6 +70,14 @@ Please see [GETTING_STARTED.md](https://github.com/open-mmlab/mmdetection/blob/v
 python demo/LQM_image_demo.py --config configs/uncertainty_guide/uncertainty_guide_r50_fpn_1x.py --checkpoint work_dirs/pretrained/LQM_r50_fpn_1x.pth --img data/coco/test2017/000000011245.jpg --score-thr 0.3
 ```
 
+## Webcam demo using pretrained model weight
+---
+```python
+# config, checkpoint path are needed (If you need pre-trained weights, you can download them from provided google drive link)
+# score threshold is optional
+
+python demo/webcam_demo.py configs/uncertainty_guide/uncertainty_guide_r50_fpn_1x.py work_dirs/pretrained/LQM_r50_fpn_1x.pth
+```
 ## Models
 ---
 For your convenience, we provide the following trained models. All models are trained with 16 images in a mini-batch with 4 GPUs.
